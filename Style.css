@@ -1,4 +1,3 @@
-
 *{
     font-family:sans-serif;
     margin: 0;
@@ -7,7 +6,7 @@
 }
 
 body{
-    background-image: url(img/textura.jpg);
+    background-image: url(img/gatoscoco.jpg);
 }
 
 header{
@@ -17,8 +16,8 @@ header{
     display: block;
     position: relative;
     height: 5em;
+    width: 20em;
     margin: auto;
-  
 
 }
 
@@ -27,15 +26,22 @@ h1{
     position:relative;
     text-align: center;
     top: 23px;
+    font-family:sans-serif;
+    font-size: 40px;
 
 }
 
 footer{
-    background-color: rgb(117, 117, 117);
+    color: rgb(224, 224, 224);
+    background-color: #232F3E;
     display: block;
     position: relative;
-    height: 6em;
+    height: 5em;
     text-align: center;
+    top: 50px;
+    padding-bottom: 6em;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.158);
     
 }
 
@@ -61,7 +67,7 @@ footer{
 
 .fotoalbum:hover{
     transform:scale(1.1);
-    filter:blur(0)
+    filter:blur(0);
 }
 
 
@@ -71,20 +77,14 @@ footer{
     height: 100%;
 }
 
-.textofooter{
-    display: block;
-    position: relative;
-    background-color: #fff;
-    text-align: center;
-    height: 20px;
-}
-
 
 .contato{
-    color:floralwhite;
-    font-size: 13px;
-    font-size: 
-
+    font-weight: bold;
+    margin-top:8px;
+    
 }
 
+.redes{
+    margin-top:10px;
 
+}
